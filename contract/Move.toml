@@ -1,0 +1,11 @@
+[package]
+name = "tee_oracle"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+tee_oracle = "0x0"
+std = "0x1"
+engine = "0x47ab00599d8d7f64bfd0cf306835912449b5a50fe64cfda3294b51e1d3e2a714"
